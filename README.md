@@ -1,4 +1,7 @@
-Install Apache web server locally
+If using AWS don't forget to add HTTP and HTTPS:
+- Inbound Rules in AWS (EC2 -> Security Group -> Choose Instance -> Inbound -> Add HTTP and HTTPS)
+
+Install Apache web server locally:
 
 	sudo yum install httpd24
 	sudo service httpd start
