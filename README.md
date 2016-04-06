@@ -12,6 +12,7 @@ In /etc/httpd/conf/httpd.conf add the following lines (for Perl):
 	AddHandler cgi-script .cgi .pl
 
 Then:
+
 	sudo service httpd restart
 
 Then put all your executable files into /var/www/cgi-bin
